@@ -1,0 +1,185 @@
+/******** FONT ********/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+/******** BACKGROUND ********/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/img_background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+/******** HEADER ********/
+
+.header__title {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: -15px;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/******** FORM MAIN ********/
+
+.form {
+    font-size: 18px;
+    width: 50vw;
+    margin-top: 25px;
+    background-color: rgb(40, 40, 71, 0.7);
+    border-radius: 4px;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    margin: 2rem;
+    padding: 0;
+}
+
+
+
+/******** DETAILS ********/
+
+.form__name, .form__email, .form__age, .form__role {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__age__parenthese {
+    font-size: 12px;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 26px;
+    color: black;
+}
+
+
+
+/******** SELECT ********/
+
+#role, #feat {
+    height: 30px;
+    padding-left: 8px;
+    margin-top: 7px;
+    margin-bottom: 26px;
+    width: 100%;
+    color: black;
+}
+
+
+
+/******** RADIO ********/
+
+.form__recommend {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-bottom: 26px;
+    line-height: 1.8em;
+}
+
+.form__radio {
+    display: flex;
+    align-items: center;
+}
+
+input[type=radio] {
+    border: none;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0;
+    margin-right: 8px;
+}
+
+
+
+/******** CHECKBOX ********/
+
+.form__improvation {
+    margin-top: 7px;
+    margin-bottom: 26px;
+    line-height: 1.8em;
+}
+
+.form__improvation__parenthese {
+    font-size: 12px;
+}
+
+.form__checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    border: none;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0;
+    margin-right: 8px;
+}
+
+
+
+/******** COMMENTARY ********/
+
+.form__comments {
+    display: flex;
+    flex-direction: column;
+}
+
+#comments {
+    color: black;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 7px;
+    margin-bottom: 26px;
+    height: 120px;
+    border: none;
+}
+
+
+
+/******** SUMMIT ********/
+
+.form__submit {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(92, 173, 108);
+    font-size: 16px;
+    height: 45px;
+    margin-bottom: 26px;
+}
+
+
+/****** By Tijah ******/
